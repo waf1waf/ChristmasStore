@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--suppress XmlUnboundNsPrefix -->
+<Context path="/myApp" docBase="myApp"
+         crossContext="true" reloadable="true">
+
+    <Resource type="javax.sql.DataSource"
+              name="jdbc/ChristmasStoreDB"
+              auth="Container"
+              driverClassName="org.mariadb.jdbc.Driver"
+              url="jdbc:mariadb://localhost:3306/xmas2018"
+              username="xmas"
+              password="JesusIsTheReason"/>
+</Context>

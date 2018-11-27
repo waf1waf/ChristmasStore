@@ -1,0 +1,33 @@
+body {
+	background-color: white;
+	color: darkgreen;
+	font-family: arial, sans-serif; font-size:14pt;
+}
+table {
+	border: 1px solid darkgreen;
+	border-collapse: collapse;
+}
+th {
+	background-color: white;
+	color: darkgreen;
+	padding: 5px 10px;
+	border: 1px solid darkgreen;
+	border-collapse: collapse;
+}
+td {
+	padding: 5px 10px;
+	border: 1px solid darkgreen;
+	border-collapse: collapse;
+}
+a {
+	text-decoration: none;
+	color: darkgreen;
+}
+a:link {
+	text-decoration: none;
+	color: darkgreen;
+}
+a:hover {
+	text-decoration: none;
+	color: darkgreen;
+}

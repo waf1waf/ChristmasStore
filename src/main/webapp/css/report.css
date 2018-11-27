@@ -1,0 +1,36 @@
+body {
+	background-color: white;
+	color: darkgreen;
+	font-family: arial, sans-serif; font-size:10pt; }
+table {
+	margin-left: 5%;
+	border: 1px solid darkgreen;
+	border-collapse: collapse;
+	font-size:10pt;
+}
+th {
+	background-color: white;
+	color: darkgreen;
+	padding: 5px 10px;
+	border: 1px solid darkgreen;
+	border-collapse: collapse;
+	font-size:10pt;
+}
+td {
+	padding: 5px 10px;
+	border: 1px solid darkgreen;
+	border-collapse: collapse;
+	font-size:10pt;
+}
+a {
+	text-decoration: none;
+	color: darkgreen;
+}
+a:link {
+	text-decoration: none;
+	color: darkgreen;
+}
+a:hover {
+	text-decoration: none;
+	color: yellow;
+}

@@ -1,0 +1,50 @@
+body {
+	background-color: darkgreen;
+	color: white;
+	font-family: arial, sans-serif; font-size:14pt;
+}
+
+h1 {
+	text-align: center;
+}
+table {
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid white;
+	border-collapse: collapse;
+}
+th {
+	background-color: darkgreen;
+	color: white;
+	padding: 5px 10px;
+	border: 1px solid white;
+	border-collapse: collapse;
+}
+td {
+	padding: 5px 10px;
+	border: 1px solid white;
+	border-collapse: collapse;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+a:link {
+	text-decoration: none;
+	color: white;
+}
+a:hover {
+	text-decoration: none;
+	color: yellow;
+}
+em { 
+	color: yellow;
+}
+.required:before { 
+	content:"* ";
+	color:red;
+}
+.not_required:before { 
+	content:"* ";
+	color:darkgreen;
+}
